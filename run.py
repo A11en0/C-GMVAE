@@ -23,8 +23,10 @@ def run(device, args, save_dir, file_name):
     # setting random seeds
     init_random_seed(args.seed)
     save_name = save_dir + file_name
+
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
+
     # if os.path.exists(save_name):
     #     return
 
@@ -75,8 +77,8 @@ if __name__ == '__main__':
     # label_nums = [6, 6, 14, 20, 291, 260, 38, 268]
 
     # datanames = ['emotions']
-    datanames = ['scene']
-    # datanames = ['Yeast']
+    # datanames = ['scene']
+    datanames = ['Yeast']
     # datanames = ['Pascal']
     # datanames = ['Iaprtc12']
     # datanames = ['Corel5k']

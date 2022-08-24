@@ -8,15 +8,12 @@ class Args:
     def __init__(self):
         self.DATA_ROOT = './datasets'
         self.DATA_SET_NAME = 'emotions'
-        self.epochs = 50
+        self.epochs = 100
         self.show_epoch = 1
         self.model_save_epoch = 20
         self.model_save_dir = 'model_save_dir'
 
-        # self.using_lp = False
-        # self.neighbors_num = 10
         self.no_verbose = True
-        # self.using_lp = False  # label propagation for label de-noise
 
         self.is_test_in_train = True
         self.batch_size = 512
@@ -46,7 +43,7 @@ class Args:
 
         self.residue_sigma = 'non-random'
         self.finetune = False
-        self.emb_size = 512
+        self.emb_size = 2048
         self.eta_min = 2e-4
         self.T_mult = 2
         self.T0 = 50

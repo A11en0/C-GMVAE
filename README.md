@@ -1,5 +1,5 @@
-# MPVAE-Pytorch
-The re-implementation of MPVAE using PyTorch.
+# C-GMVAE-Pytorch
+The clean version of C-GMVAE using PyTorch.
 
 # Sample Dataset
 We use emotions as our running example since it is commonly used and has a moderate size. Dataset location: datasets/emotions
